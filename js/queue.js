@@ -69,16 +69,3 @@ Queue.prototype.isEmpty = function(){
 }
 
 module.exports = Queue
-
-/*let queue = new Queue()
-
-for(let i = 1; i <= 10; i++){
-    queue.push(i)
-}
-
-console.log(queue.getAllValues())
-queue.shift()
-console.log(queue.getAllValues())
-console.log(queue.getPosValue(4))
-queue.push(23)
-console.log(queue.getAllValues())*/

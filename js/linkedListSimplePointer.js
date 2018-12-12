@@ -129,26 +129,3 @@ LinkedListSimplePointer.prototype.removeSpecificPosition = function(pos){
 }
 
 module.exports = LinkedListSimplePointer
-
-/*let linkedList = new LinkedListSimplePointer()
-for(let i = 1; i <= 10; i++){
-    linkedList.push(i)
-}
-
-console.log(linkedList.getAllValues())
-console.log(linkedList.getPosElement(5))
-console.log(linkedList.getPosElement(23))
-linkedList.pop()
-console.log(linkedList.getAllValues())
-linkedList.shift()
-console.log(linkedList.getAllValues())
-linkedList.unshift(0)
-console.log(linkedList.getAllValues())
-linkedList.push(11)
-console.log(linkedList.getAllValues())
-linkedList.removeSpecificPosition(2)
-console.log(linkedList.getAllValues())
-linkedList.addSpecificPosition(3, 2)
-console.log(linkedList.getAllValues())
-linkedList.removeSpecificPosition(23)
-console.log(linkedList.getAllValues())*/
